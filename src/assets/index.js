@@ -1,1 +1,1 @@
-export { default as Golababicon } from "./Golababicon";
+export {default as Golabab_logo} from './Golabab_logo';

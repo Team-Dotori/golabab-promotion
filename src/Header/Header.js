@@ -1,18 +1,26 @@
 import React from 'react';
+import * as S from '../Style/Headerst';
 import * as I from '../assets/index';
-import * as S from './HeaderSt';
 
 const Header = () => {
     return (
         <>
             <S.Header>
                 <S.Head>
-                    <S.Menulist>
-                        
-                    </S.Menulist>
                     <S.Iconimg>
-                        
+                        <I.Golabab_logo/>
                     </S.Iconimg>
+                    <S.Menulist>
+                        <a href="#!" target="_blank" rel="noreferrer" >
+                            <p>Rank</p>
+                        </a>
+                        <a href="#!" target="_blank" rel="noreferrer" >
+                            <p>Discord</p>
+                        </a>
+                        <a href="#!" target="_blank" rel="noreferrer" >
+                            <p>About us</p>
+                        </a>
+                    </S.Menulist>
                 </S.Head>
             </S.Header>
             
