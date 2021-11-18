@@ -1,10 +1,12 @@
 import React from 'react';
+import * as S from '../Style/Con4st';
 
 const Contents4 = () => {
     return (
         <>
-            <Contents4>
-            </Contents4>   
+            <S.Contents4>
+                
+            </S.Contents4>   
         </>
     );
 };
