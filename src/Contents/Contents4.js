@@ -1,6 +1,6 @@
 import React from 'react'
-import * as S from './Con4st'
-import note from './img/noteicon.png'
+import * as S from '../Style/Con4st'
+import note from '../assets/noteicon'
 
 const Contents4=() =>{
   return(

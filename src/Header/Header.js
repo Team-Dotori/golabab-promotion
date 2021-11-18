@@ -5,16 +5,16 @@ import * as S from './HeaderSt';
 const Header = () => {
     return (
         <>
-            <S.Header>
-                <S.Head>
-                    <S.Menulist>
+            {/* <S.Header> */}
+                {/* <S.Head> */}
+                    {/* <S.Menulist> */}
                         
-                    </S.Menulist>
-                    <S.Iconimg>
+                    {/* </S.Menulist> */}
+                    {/* <S.Iconimg> */}
                         
-                    </S.Iconimg>
-                </S.Head>
-            </S.Header>
+                    {/* </S.Iconimg> */}
+                {/* </S.Head> */}
+            {/* </S.Header> */}
             
         </>
     );

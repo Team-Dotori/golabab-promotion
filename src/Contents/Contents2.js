@@ -1,5 +1,5 @@
 import React from 'react'
-import * as S from './Con2st'
+import * as S from '../Style/Con2st'
 
 const Contents2=() =>{
   return(
