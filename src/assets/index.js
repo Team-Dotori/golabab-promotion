@@ -1,2 +1,3 @@
-export {default as Golabab_logo} from './Golabab_logo';
+export {default as GolababLogo} from './GolababLogo';
 export {default as ConOneImg} from './ConOneImg';
+export {default as ConThreeImg} from './ConThreeImg';

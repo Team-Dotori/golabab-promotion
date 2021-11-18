@@ -8,7 +8,7 @@ const Header = () => {
             <S.Header>
                 <S.Head>
                     <S.Iconimg>
-                        <I.Golabab_logo/>
+                        <I.GolababLogo/>
                     </S.Iconimg>
                     <S.Menulist>
                         <a href="#!" target="_blank" rel="noreferrer" >

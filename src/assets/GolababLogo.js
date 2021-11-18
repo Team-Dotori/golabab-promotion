@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-function Golabab_logo(props){
+function GolababLogo(props){
     return ( 
 <svg width={80} height={47} viewBox="0 0 80 60" fill="none" {...props}>
   <path
@@ -27,5 +27,5 @@ function Golabab_logo(props){
    )
 };
 
-const MemoGolabab_logo = React.memo(Golabab_logo);
-export default MemoGolabab_logo;
+const MemoGolababLogo = React.memo(GolababLogo);
+export default MemoGolababLogo;
