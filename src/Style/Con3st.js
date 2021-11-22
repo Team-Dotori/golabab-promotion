@@ -12,14 +12,16 @@ export const Content = styled.div`
     display:flex;
     flex-direction:column;
     justify-content:space-evenly;
+    margin-right:25vh;
 `;
 
 export const Img = styled.div`
-    width:50vh;
-    height:50vh;
+    width:60vh;
+    height:60vh;
+    margin-right:25vh;
     svg{
-        width:50vh;
-        height:50vh;
+        width:60vh;
+        height:60vh;
     }
 `;
 

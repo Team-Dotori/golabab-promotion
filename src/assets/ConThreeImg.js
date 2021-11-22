@@ -2,8 +2,7 @@ import * as React from 'react';
 
 function ConThreeImg(props){
     return(
-<svg width={400} height={600} viewBox="0 0 600 590" fill="none" {...props}>
-  <path opacity={0.6} fill="url(#prefix__pattern0)" d="M370 533h308v133H370z" />
+<svg width={1000} height={600} viewBox="0 0 1000 600" fill="none" {...props}>
   <path opacity={0.8} fill="url(#prefix__pattern1)" d="M671 371h333v154H671z" />
   <path fill="url(#prefix__pattern2)" d="M370 173h573v171H370z" />
   <g filter="url(#prefix__filter0_f_3_126)">
