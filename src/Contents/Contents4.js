@@ -1,6 +1,6 @@
 import React from 'react'
 import * as S from '../Style/Con4st'
-import note from '../assets/noteicon.svg'
+import * as I from '../assets/index';
 
 const Contents4=() =>{
   return(
@@ -13,7 +13,7 @@ const Contents4=() =>{
         2주 단위로, 투표결과를 확인하실 수 있습니다.
         </S.P>
         <S.Note>
-          <img src={note}/>
+          <I.Noteicon/>
         </S.Note>
         <S.Link>
           <a href="#" style={{textDecoration:'none'}}><S.Red>투표결과 →</S.Red></a>

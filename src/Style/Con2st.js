@@ -10,8 +10,8 @@ export const Section=styled.section`
   font-family: 'Noto Sans KR', sans-serif;
 `
 export const Div = styled.div`
-  padding-top:40vh;
-  padding-left:15vw;
+  padding-top:35vh;
+  padding-left:20vw;
 `
 export const Div2 = styled.div`
   padding-top:25vh;
