@@ -11,15 +11,13 @@ const Header = () => {
 						<I.GolababLogo/>
 					</S.Iconimg>
 					<S.Menulist>
-						{/* <a href="#!" target="_blank" rel="noreferrer" */}
-						<a href="#!" rel="noreferrer" onClick={()=>alert('오픈 준비중입니다!')} >
+						<a href="#!" target="_blank" rel="noreferrer" >
 							<p>Rank</p>
 						</a>
-						{/* <a href="#!" target="_blank" rel="noreferrer" > */}
-						<a href="#!" rel="noreferrer" onClick={()=>alert('오픈 준비중입니다!')} >
+						<a href="#!" target="_blank" rel="noreferrer" >
 							<p>Discord</p>
 						</a>
-						<a href="https://golabab.netlify.app/" target="_blank" rel="noreferrer" >
+						<a href="#!" target="_blank" rel="noreferrer" >
 							<p>About us</p>
 						</a>
 					</S.Menulist>
