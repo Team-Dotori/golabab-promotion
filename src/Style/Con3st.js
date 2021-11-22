@@ -49,4 +49,7 @@ export const Vote = styled.div`
     font-weight:600;
     text-align:right;
     padding-bottom:15vh;
+    :hover{
+        cursor: pointer;
+    }
 `;

@@ -18,7 +18,7 @@ const Contents4=() =>{
           <img src={NoteIcon}/>
         </S.Note>
         <S.Link>
-          <a href="#" style={{textDecoration:'none'}}><S.Red>투표결과 →</S.Red></a>
+          <a href="#" style={{textDecoration:'none'}} onClick={()=>alert('오픈 준비중입니다!')}><S.Red>투표결과 <I.Union/></S.Red></a>
         </S.Link>
       </S.Div>
     </S.Section>
