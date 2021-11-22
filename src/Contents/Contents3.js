@@ -17,7 +17,7 @@ const Contents3 = () => {
                     <S.Ment2>
                     웹보다 더 친근한 디스코드로 여러분께 다가갑니다.
                     </S.Ment2>
-                    <S.Vote>
+                    <S.Vote onClick={()=>alert('오픈 준비중입니다!')}>
                         투표하기 <I.Union/>
                     </S.Vote>
                 </S.Content>
