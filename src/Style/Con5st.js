@@ -40,5 +40,7 @@ export const Votebutton = styled.button`
     color:#663E3E;
     background-color:#FFEAEA;
     margin:0 auto 15vh;
-    
+    :hover{
+        cursor: pointer;
+    }
 `;
