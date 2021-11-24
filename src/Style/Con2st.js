@@ -16,10 +16,11 @@ export const Div = styled.div`
 export const Div2 = styled.div`
   padding-top:25vh;
   padding-left:15vw;
-  font-size: 20px;
+  font-size: 1.4rem;
   font-weight: bold;
   font-style: normal;
   text-align: center;
+  font-family:"Noto Sans KR";
 `
 export const Pink = styled.a`
   color:#ffacac;
@@ -27,11 +28,13 @@ export const Pink = styled.a`
 export const P = styled.p`
   color:#AE9696;
   padding-top: 30px;
-  font-size:24px;
+  font-size:1.4rem;
+  font-family:"Noto Sans KR";
 `
 export const H = styled.p`
-  font-size: 64px;
+  font-size: 3.6rem;
   font-weight: bold;
+  font-family:"Noto Sans";
 `
 export const Aside1 = styled.aside`
   margin-bottom: 40px;
