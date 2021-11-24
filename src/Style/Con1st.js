@@ -12,15 +12,16 @@ export const Content = styled.div`
     display:flex;
     flex-direction:column;
     justify-content:space-evenly;
-    
+    padding-top:5vh;
 `;
 
 export const Con1Img = styled.div`
     width:70vh;
-    height:50vh;
+    height:45vh;
+    padding-top:5vh;
     svg{
         width:70vh;
-        height:50vh;
+        height:45vh;
     }
 `;
 

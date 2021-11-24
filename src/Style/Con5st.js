@@ -20,6 +20,7 @@ export const Ment1 = styled.div`
     color:#FFFFFF;
     text-align:center;
     padding-top:20vh;
+    font-family:"Noto Sans";
 `;
 
 export const Ment2 = styled.div`
@@ -28,6 +29,7 @@ export const Ment2 = styled.div`
     color:#FFFFFF;
     text-align:center;
     padding-bottom:5vh;
+    font-family:"Noto Sans KR";
 `;
 
 export const Votebutton = styled.button`
@@ -35,6 +37,7 @@ export const Votebutton = styled.button`
     height:5.2vh;
     font-size:1.2rem;
     font-weight:bold;
+    font-family:"Noto Sans KR";
     border-radius:5px;
     border:none;
     color:#663E3E;

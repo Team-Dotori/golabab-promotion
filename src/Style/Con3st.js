@@ -49,6 +49,7 @@ export const Vote = styled.div`
     font-weight:600;
     text-align:right;
     padding-bottom:15vh;
+    font-family:"Noto Sans KR";
     :hover{
         cursor: pointer;
     }
