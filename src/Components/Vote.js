@@ -19,6 +19,7 @@ const Button = styled.button`
     font-weight:bold;
     border-radius:10px;
     border:none;
+    font-family:"Noto Sans KR";
 
     margin-right:3vh;
 

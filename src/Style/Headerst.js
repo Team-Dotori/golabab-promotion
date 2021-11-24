@@ -16,6 +16,7 @@ export const Head = styled.div`
 export const Iconimg = styled.div`
     width:4vw;
     height:4vh;
+    padding-left:3vh;
     svg{
         width:4vw;
         height:4vh;
@@ -26,12 +27,13 @@ export const Menulist = styled.div`
     display:flex;
     justify-content:space-between;
     width:35vh;
-    font-size:1.4rem;
-    font-weight:400;
-
+    font-size:1.5rem;
+    font-weight:600;
+    font-family:"Noto Sans KR";
+    padding-right:3vh;
     a{
         text-decoration:none;
-        color:#573719;
+        color:#663E3E;
         display:flex;
         justify-content:space-between;
     }

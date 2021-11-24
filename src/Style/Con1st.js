@@ -12,15 +12,17 @@ export const Content = styled.div`
     display:flex;
     flex-direction:column;
     justify-content:space-evenly;
-    
+    padding-top:5vh;
 `;
 
 export const Con1Img = styled.div`
     width:70vh;
-    height:50vh;
+    height:45vh;
+    padding-top:5vh;
+    padding-left:5vh;
     svg{
         width:70vh;
-        height:50vh;
+        height:45vh;
     }
 `;
 
@@ -29,6 +31,7 @@ export const Ment1 = styled.div`
     font-weight:bold;
     padding-top:8vh;
     padding-bottom:3vh;
+    font-family:"Noto Sans";
 `;
 
 export const Ment2 = styled.div`
@@ -36,6 +39,7 @@ export const Ment2 = styled.div`
     font-weight:400;
     color:#AE9696;
     padding-bottom:8vh;
+    font-family:"Noto Sans KR";
 `;
 
 export const Votebtn = styled.div`

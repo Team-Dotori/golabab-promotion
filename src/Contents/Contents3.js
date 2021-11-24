@@ -18,7 +18,7 @@ const Contents3 = () => {
                     웹보다 더 친근한 디스코드로 여러분께 다가갑니다.
                     </S.Ment2>
                     <S.Vote>
-                        투표하기 <I.Union/>
+                        <a href="#" style={{textDecoration:'none'}} >투표하기 <I.Union/></a>
                     </S.Vote>
                 </S.Content>
             </S.Contents3>
