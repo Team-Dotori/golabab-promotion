@@ -53,4 +53,7 @@ export const Vote = styled.div`
     a{
         color: #FF5151;
     }
+    :hover{
+        cursor: pointer;
+    }
 `;

@@ -37,6 +37,9 @@ export const Menulist = styled.div`
         display:flex;
         justify-content:space-between;
     }
+    :hover{
+            color: rgba(0,0,0,0.6);
+        }
 `;
 
 
