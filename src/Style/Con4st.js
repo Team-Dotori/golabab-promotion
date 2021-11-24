@@ -18,12 +18,14 @@ export const Div2 = styled.div`
 export const P = styled.p`
   color:#AE9696;
   padding-top: 30px;
-  font-size:24px;
+  font-size:1.4rem;
   width: 100vw;
+  font-family:"Noto Sans KR";
 `
 export const H = styled.p`
-  font-size: 64px;
+  font-size: 3.6rem;
   font-weight: bold;
+  font-family:"Noto Sans";
 `
 export const Note = styled.div`
   margin-top: 32px;
@@ -33,6 +35,7 @@ export const Note = styled.div`
 `
 export const Red = styled.a`
   color: #FF5151;
+  font-family:"Noto Sans KR";
 `
 export const Link = styled.div`
   font-size: 30px;
