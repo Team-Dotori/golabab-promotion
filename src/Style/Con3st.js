@@ -30,7 +30,6 @@ export const Ment1 = styled.div`
     font-size:3.6rem;
     font-weight:bold;
     padding-top:15vh;
-    font-family:"Noto Sans";
     div{
         display:inline;
         color:#FFACAC;
@@ -42,7 +41,6 @@ export const Ment2 = styled.div`
     font-weight:400;
     color:#AE9696;
     padding-bottom:3vh;
-    font-family:"Noto Sans KR";
 `;
 
 export const Vote = styled.div`
