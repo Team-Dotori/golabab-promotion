@@ -1,11 +1,12 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "골라밥",
+  "name": "골라밥: 골라밥에게 맛있었던 메뉴를 알려주세요! 매달 2회, 영양사 선생님께 투표 결과를 전달해드립니다.",
+  "description": "GSM의 급식투표 봇, 골라밥입니다!",
   "icons": [
     {
       "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "type": "image/x-icon",
+      "sizes": "192x192"
     },
     {
       "src": "logo192.png",
@@ -18,7 +19,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
