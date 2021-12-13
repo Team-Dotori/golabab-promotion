@@ -1,27 +1,26 @@
-import React from 'react'
-import * as S from '../Style/Con4st'
-import * as I from '../assets/index'
-import NoteIcon from '../assets/noteicon.svg'
+import React from "react";
+import * as S from "../Style/Con4st";
+import * as I from "../assets/index";
+import NoteIcon from "../assets/noteicon.svg";
 
-const Contents4=() =>{
-  return(
+const Contents4 = () => {
+  return (
     <S.Section>
       <S.Div>
-        <S.H>
-          어떤 메뉴가 가장 맛있었나요?
-        </S.H>
-        <S.P>
-        2주 단위로, 투표결과를 확인하실 수 있습니다.
-        </S.P>
+        <S.H>어떤 메뉴가 가장 맛있었나요?</S.H>
+        <S.P>2주 단위로, 투표결과를 확인하실 수 있습니다.</S.P>
         <S.Note>
-          {/* <I.Noteicon/> */}
-          <img src={NoteIcon}/>
+          <img src={NoteIcon} />
         </S.Note>
         <S.Link>
-          <a href="#" style={{textDecoration:'none'}} onClick={()=>alert('오픈 준비중입니다!')}><S.Red>투표결과 <I.Union/></S.Red></a>
+          <a href={process.env.REACT_APP_RESULT}>
+            <S.Red>
+              투표결과 <I.Union />
+            </S.Red>
+          </a>
         </S.Link>
       </S.Div>
     </S.Section>
-  )
-}
-export default Contents4
+  );
+};
+export default Contents4;

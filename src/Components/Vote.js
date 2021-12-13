@@ -1,40 +1,41 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
-const Vote = ({name, btncolor, fontcolor}) => {
+const Vote = ({ name, btncolor, fontcolor }) => {
   return (
     <>
-      {/* <Button type="button" btncolor={btncolor} fontcolor={fontcolor}>
+      <Link
+        href={
+          name === "투표하기"
+            ? process.env.REACT_APP_VOTE
+            : process.env.REACT_APP_HOMEPAGE
+        }
+      >
+        <Button fontcolor={fontcolor} btncolor={btncolor}>
           {name}
-      </Button> */}
-      <Button type="button" btncolor={btncolor} fontcolor={fontcolor} onClick={()=>alert('오픈 준비중입니다!')} >
-          {name}
-      </Button>
+        </Button>
+      </Link>
     </>
   );
 };
 
 const Button = styled.button`
+  width: 7vw;
+  height: 5.2vh;
+  font-size: 1.4rem;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  font-family: "Noto Sans KR";
+  margin-right: 3vh;
+  cursor: pointer;
 
-  width:7vw;
-  height:5.2vh;
-  font-size:1.4rem;
-  font-weight:bold;
-  border-radius:10px;
-  border:none;
-  font-family:"Noto Sans KR";
-  margin-right:3vh;
+  background-color: ${(props) => props.btncolor || null};
+  color: ${(props) => props.fontcolor || null};
+`;
 
-  color: ${
-      props => props.fontcolor || null
-  };
-
-  background-color: ${
-      props => props.btncolor || null
-  };
-  :hover{
-    cursor: pointer;
-  }
+const Link = styled.a`
+  text-decoration: none;
 `;
 
 export default Vote;
