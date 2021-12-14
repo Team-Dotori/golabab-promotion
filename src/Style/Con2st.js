@@ -2,16 +2,17 @@ import styled from 'styled-components';
 export const Section=styled.section`
   background-color: white;
     width:100%;
-    height:60vh;
+    height:73vh;
     display:flex;
     justify-content:center;
 `
 export const Div = styled.div`
-  padding-top:20vh;
+  padding-top:23vh;
+  margin-right: 3vw;
 `
 export const Div2 = styled.div`
-  padding-top:10vh;
-  padding-left:8vw;
+  padding-top:13vh;
+  padding-left:7vw;
   font-size: 1.3rem;
   font-weight: bold;
   font-style: normal;
