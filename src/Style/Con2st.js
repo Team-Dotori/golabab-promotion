@@ -1,26 +1,22 @@
 import styled from 'styled-components';
 export const Section=styled.section`
   background-color: white;
-  margin: 0;
-  padding: 0;
-  width:100%;
-  height:945px;
-  display: flex;
-  align-content: space-between;
-  font-family: 'Noto Sans KR', sans-serif;
+    width:100%;
+    height:70vh;
+    display:flex;
+    justify-content:center;
 `
 export const Div = styled.div`
-  padding-top:35vh;
-  padding-left:20vw;
+  padding-top:20vh;
+  margin-right: 3vw;
 `
 export const Div2 = styled.div`
-  padding-top:25vh;
-  padding-left:15vw;
-  font-size: 1.4rem;
+  padding-top:10vh;
+  padding-left:7vw;
+  font-size: 1.3rem;
   font-weight: bold;
   font-style: normal;
   text-align: center;
-  font-family:"Noto Sans KR";
 `
 export const Pink = styled.a`
   color:#ffacac;
@@ -29,12 +25,10 @@ export const P = styled.p`
   color:#AE9696;
   padding-top: 30px;
   font-size:1.4rem;
-  font-family:"Noto Sans KR";
 `
 export const H = styled.p`
   font-size: 3.6rem;
   font-weight: bold;
-  font-family:"Noto Sans";
 `
 export const Aside1 = styled.aside`
   margin-bottom: 40px;
