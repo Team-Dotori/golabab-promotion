@@ -8,7 +8,7 @@ const Vote = ({ name, btncolor, fontcolor }) => {
         href={
           name === "투표하기"
             ? process.env.REACT_APP_VOTE
-            : process.env.REACT_APP_HOMEPAGE
+            : process.env.REACT_APP_RESULT
         }
       >
         <Button fontcolor={fontcolor} btncolor={btncolor}>
