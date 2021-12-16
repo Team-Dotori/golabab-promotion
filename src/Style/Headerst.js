@@ -1,46 +1,43 @@
-import styled from 'styled-components';
+import styled from "styled-components";
+import device from "../config/reactive";
 
 export const Header = styled.header`
-    width: 100%;
-    height: 20%;
+  width: 100%;
+  height: 20%;
+  background-color: #ffeaea;
+  display: flex;
+  justify-content: center;
 `;
 
 export const Head = styled.div`
-    display:flex;
-    background-color:#FFEAEA;
-    height:5vh;
-    align-items:center;
-    justify-content:space-around;
-    
-`;
-
-export const Iconimg = styled.div`
-    width:4vw;
-    height:4vh;
-    padding-left:3vh;
-    svg{
-        width:4vw;
-        height:4vh;
-    }
+  width: 60vw;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  @media ${device.small} {
+    justify-content: center;
+  }
 `;
 
 export const Menulist = styled.div`
-    display:flex;
-    justify-content:space-between;
-    width:35vh;
-    font-size:1.5rem;
-    font-weight:600;
-    font-family:"Noto Sans KR";
-    padding-right:3vh;
-
-    a{
-        text-decoration:none;
-        color:#573719;
-        display:flex;
-        justify-content:space-between;
-        :hover{
-            color: rgba(0,0,0,0.6);
-        }
-    }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 300px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: "Noto Sans KR";
+  @media ${device.small} {
+    display: none;
+  }
 `;
 
+export const Nav = styled.a`
+  text-decoration: none;
+  color: #573719;
+  display: flex;
+  justify-content: space-between;
+  :hover {
+    color: rgba(0, 0, 0, 0.6);
+  }
+`;

@@ -4,26 +4,22 @@ import * as I from "../assets/index";
 
 const Header = () => {
   return (
-    <>
-      <S.Header>
-        <S.Head>
-          <S.Iconimg>
-            <I.GolababLogo />
-          </S.Iconimg>
-          <S.Menulist>
-            <a href={process.env.REACT_APP_RESULT} rel="noreferrer">
-              <p>Rank</p>
-            </a>
-            <a href={process.env.REACT_APP_VOTE} rel="noreferrer">
-              <p>Discord</p>
-            </a>
-            <a href={process.env.REACT_APP_HOMEPAGE} rel="noreferrer">
-              <p>About us</p>
-            </a>
-          </S.Menulist>
-        </S.Head>
-      </S.Header>
-    </>
+    <S.Header>
+      <S.Head>
+        <I.GolababLogo />
+        <S.Menulist>
+          <S.Nav href={process.env.REACT_APP_RESULT} rel="noreferrer">
+            Rank
+          </S.Nav>
+          <S.Nav href={process.env.REACT_APP_VOTE} rel="noreferrer">
+            Discord
+          </S.Nav>
+          <S.Nav href={process.env.REACT_APP_HOMEPAGE} rel="noreferrer">
+            About us
+          </S.Nav>
+        </S.Menulist>
+      </S.Head>
+    </S.Header>
   );
 };
 
