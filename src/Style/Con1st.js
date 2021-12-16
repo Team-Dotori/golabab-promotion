@@ -1,44 +1,31 @@
-import styled from 'styled-components';
-
-export const Contents1 = styled.div`
-    background-color:#FFEAEA;
-    width:100%;
-    height:60vh;
-    display:flex;
-    justify-content:center;
-`;
+import styled from "styled-components";
+import device from "../config/reactive";
 
 export const Content = styled.div`
-    display:flex;
-    flex-direction:column;
-    justify-content:space-evenly;
-    padding-top:5vh;
-`;
-
-export const Con1Img = styled.div`
-    width:70vh;
-    height:45vh;
-    padding-top:5vh;
-    svg{
-        width:70vh;
-        height:45vh;
-    }
+  min-width: 17.5em;
+  align-self: flex-start;
 `;
 
 export const Ment1 = styled.div`
-    font-size:3.6rem;
-    font-weight:bold;
-    padding-top:8vh;
-    padding-bottom:3vh;
+  font-size: 3.6rem;
+  font-weight: bold;
+  padding-bottom: 30px;
 `;
 
 export const Ment2 = styled.div`
-    font-size:1.4rem;
-    font-weight:400;
-    color:#AE9696;
-    padding-bottom:8vh;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #ae9696;
+  padding-bottom: 80px;
 `;
 
 export const Votebtn = styled.div`
-    padding-bottom:15vh;
+  display: flex;
+  justify-content: space-between;
+`;
+
+export const ImgWrap = styled.div`
+  @media ${device.medium} {
+    display: none;
+  }
 `;

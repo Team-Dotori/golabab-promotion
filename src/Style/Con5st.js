@@ -1,18 +1,10 @@
 import styled from "styled-components";
 
-export const Contents5 = styled.div`
-  background-color: #ffacac;
-  width: 100%;
-  height: 70vh;
-  display: flex;
-  justify-content: center;
-`;
-
 export const Content = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
+  width: 60vw;
 `;
 
 export const Ment1 = styled.div`
@@ -20,7 +12,7 @@ export const Ment1 = styled.div`
   font-weight: bold;
   color: #ffffff;
   text-align: center;
-  padding-top: 20vh;
+  padding-bottom: 20px;
   font-family: "Noto Sans";
 `;
 
@@ -29,22 +21,10 @@ export const Ment2 = styled.div`
   font-weight: 400;
   color: #ffffff;
   text-align: center;
-  padding-bottom: 5vh;
+  padding-bottom: 80px;
   font-family: "Noto Sans KR";
 `;
 
-export const Votebutton = styled.button`
-  width: 7vw;
-  height: 5.2vh;
-  font-size: 1.2rem;
-  font-weight: bold;
-  font-family: "Noto Sans KR";
-  border-radius: 5px;
-  border: none;
-  color: #663e3e;
-  background-color: #ffeaea;
-  margin: 0 auto 15vh;
-  :hover {
-    cursor: pointer;
-  }
+export const Votebutton = styled.div`
+  margin: 0 auto;
 `;

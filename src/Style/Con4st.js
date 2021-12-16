@@ -1,18 +1,7 @@
 import styled from "styled-components";
-export const Section = styled.section`
-  background-color: #ffeaea;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 945px;
-  display: flex;
-  justify-content: center;
-  align-content: space-between;
-  font-family: "Noto Sans KR", sans-serif;
-`;
 export const Div = styled.div`
-  padding-top: 15vh;
   text-align: center;
+  width: 60vw;
 `;
 export const Div2 = styled.div``;
 export const P = styled.p`

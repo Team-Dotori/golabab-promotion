@@ -1,11 +1,12 @@
 import React from "react";
 import * as S from "../Style/Con3st";
 import * as I from "../assets/index";
+import ArrangeMiddleSection, { ArrangeTwoElement } from "../Style/Arrange";
 
 const Contents3 = () => {
   return (
-    <>
-      <S.Contents3>
+    <ArrangeMiddleSection>
+      <ArrangeTwoElement>
         <S.Img>
           <I.ConThreeImg />
         </S.Img>
@@ -23,8 +24,8 @@ const Contents3 = () => {
             </S.Vote>
           </a>
         </S.Content>
-      </S.Contents3>
-    </>
+      </ArrangeTwoElement>
+    </ArrangeMiddleSection>
   );
 };
 
