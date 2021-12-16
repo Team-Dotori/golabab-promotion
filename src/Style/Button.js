@@ -7,7 +7,6 @@ const Button = styled.button`
   font-weight: bold;
   border: none;
   cursor: pointer;
-  margin-right: 20px;
 
   background-color: ${(p) => p.buttonColor || null};
   color: ${(p) => p.fontColor || null};
